@@ -1,0 +1,52 @@
+@media screen and (max-width : 412px){
+	 body{
+	 	position: relative;
+	 	width: 100%;
+	}
+	nav{
+	    height: 50px
+	}
+	nav h1{
+		padding-top: 0;
+	}
+	.link{
+		font-size: 80%;
+		font-weight: 300;
+	}
+	.filter-options{
+		overflow:auto;
+	}
+
+	#neighborhoods-select{
+		float: left;
+		width: 45%;
+		height: 45%;
+	}
+	#cuisines-select{
+		float: right;
+		/* position: absolute; */
+		width: 45%;
+		height: 45%;
+	}
+	/* select > option{
+		width: 25%;
+	} */
+	#footer{
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+		padding-top: 15px;
+		text-align: center;
+		display: flex;
+		justify-content: center;
+	}
+	.leaflet-control-zoom-in{
+		width: 50px;
+		height: 50px;
+	}
+
+
+/* #reviews-list{
+	    margin-right: 30px;
+} */
+}
