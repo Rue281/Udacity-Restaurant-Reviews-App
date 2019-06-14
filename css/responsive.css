@@ -13,18 +13,18 @@
 		font-size: 80%;
 		font-weight: 300;
 	}
-	.filter-options{
-		overflow:auto;
-	}
+	/* .filter-options{
+		overflow: auto;
+	} */
 
 	#neighborhoods-select{
 		float: left;
 		width: 45%;
 		height: 45%;
+		margin-right: unset;
 	}
 	#cuisines-select{
 		float: right;
-		/* position: absolute; */
 		width: 45%;
 		height: 45%;
 	}
